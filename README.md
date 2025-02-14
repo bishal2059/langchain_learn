@@ -6,7 +6,9 @@ In this project I learned about the langchain.
 
 ## Setup
 
-### 1. Create a Virtual Environment
+### 1. First setup env variable: Use the env.example to setup up necessary api keys from the listed services
+
+### 2. Create a Virtual Environment
 
 To create a virtual environment, run the following command:
 
@@ -17,7 +19,9 @@ pip install -r requirements.txt
 
 ```
 
-### 2. To run a sample example
+### 3. To use Firestore database: Download the firebase private keys json file and provide its path in the env file at GOOGLE_APPLICATION_CREDENTIALS
+
+### 4. To run a sample example
 
 Run the specific python example using virtual env
 
