@@ -13,7 +13,8 @@ cred = credentials.Certificate(os.getenv("GOOGLE_APPLICATION_CREDENTIALS"))
 firebase_admin.initialize_app(cred)
 
 PROJECT_ID = "langchain-learn-d9f94"
-SESSION_ID = "chat_session_1"
+user_session = input("Enter your session id: ")
+SESSION_ID = user_session
 COLLECTION_NAME = "chat_history"
 
 #Setup Firestore Client
